@@ -6631,7 +6631,7 @@ Game_Map.prototype.isPassable = function(x, y, d) {
 };
 
 Game_Map.prototype.isBoatPassable = function(x, y) {
-    return this.checkPassage(x, y, 0x0200);
+    return this.checkPassage(x, y, 0x0f);
 };
 
 Game_Map.prototype.isShipPassable = function(x, y) {
